@@ -7,7 +7,9 @@ double click the target binary(== debut.exe or debut android app icon).
 Hotkeys: F4(Exit) F5(popup usb redirect dialog)
 
 ## Prebuild binary
-https://share.weiyun.com/5sskOC7
+Windows and android: https://share.weiyun.com/5sskOC7
+
+linux ISO(使用rufus记录U盘或光盘,或使用虚拟机网卡为e1000, 不支持音频, 不支持USB): https://share.weiyun.com/5xITTHc   
 
 ## screenshot
 Windows
@@ -15,6 +17,9 @@ Windows
 
 Android(x86 emulated)
 ![](https://user-images.githubusercontent.com/12344491/62957934-5412d380-be28-11e9-8bb5-e84f89d871c3.gif)
+
+Linux ISO: 
+![Linux Iso 112201](./screenshot/debut_iso_20191122.gif)
 
 ## License
 This library is free software; you can redistribute it and/or modify it under
