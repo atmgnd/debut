@@ -9,7 +9,9 @@ Hotkeys: F4(Exit) F5(popup usb redirect dialog)
 ## Prebuild binary
 Windows and android: https://share.weiyun.com/5sskOC7
 
-linux ISO(使用rufus记录U盘或光盘,或使用虚拟机网卡为e1000, 不支持音频, 不支持USB): https://share.weiyun.com/5xITTHc   
+linux ISO(使用rufus记录U盘或光盘,或使用虚拟机网卡为e1000, 不支持音频, 不支持USB):
+- 20191222: https://share.weiyun.com/5xITTHc
+- 20200112: https://share.weiyun.com/5QCykDN - added setup program
 
 ## screenshot
 Windows
