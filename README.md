@@ -12,6 +12,7 @@ Windows and android: https://share.weiyun.com/5sskOC7
 linux ISO(使用rufus记录U盘或光盘,或使用虚拟机网卡为e1000, 不支持音频, 不支持USB):
 - 20191222: https://share.weiyun.com/5xITTHc
 - 20200112: https://share.weiyun.com/5QCykDN - added setup program
+- 20200118: https://share.weiyun.com/5yp7B0P - 完善了基本功能, 修正了一些错误
 
 ## screenshot
 Windows
