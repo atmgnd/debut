@@ -1,6 +1,12 @@
 ## debut
 A remote desktop viewer or a simple spice client demo in c++, this software is just a **demostration** of spice-client-glib.
 
+video: [https://v.youku.com/v_show/id_XNDUzNjAxNDY2MA](https://v.youku.com/v_show/id_XNDUzNjAxNDY2MA)
+
+## lastest screenshot
+
+![screenshot](./screenshot/debut-win-linux-2020-0.0.2.jpg)
+
 ## Usage
 double click the target binary(== debut.exe or debut android app icon).
 
