@@ -1,35 +1,64 @@
-## debut
-A remote desktop viewer or a simple spice client demo in c++, this software is just a **demostration** of spice-client-glib.
+## sclient
+一个测试用的spice远程桌面C++客户端. 目的仅为spice测试. 其可以作为单独的普通应用程序运行, 也可以以瘦终端模式运行(禁用了窗口化按钮与窗口大小调整, 没有标题栏).
 
-video: [https://v.youku.com/v_show/id_XNDUzNjAxNDY2MA](https://v.youku.com/v_show/id_XNDUzNjAxNDY2MA)
+支持系统: Windows/Android/Linux. Mac/ios(? 理论上支持, 没有相关设备, 未验证)
 
-## lastest screenshot
+A remote desktop viewer or a simple spice client demo in c++, this software is just a **demostration** of spice-client-glib. But it is capable for daily use(with some modification). It can run as a standalone application and kiosk mode(resize disabled, no title bar). a kiosk system can be less than 100MB, consume only 200 MB memory(tested).
 
-![screenshot](./screenshot/debut-win-linux-2020-0.0.2.jpg)
+Support platform: windows/Android(?)/Linux. Mac/IOS(? theoretically supported, not verified, I don't own a imac)
 
-## Usage
-double click the target binary(== debut.exe or debut android app icon).
+演示视频/video: [https://v.youku.com/v_show/id_XNDUzNjAxNDY2MA](https://v.youku.com/v_show/id_XNDUzNjAxNDY2MA)
 
-Hotkeys: F4(Exit) F5(popup usb redirect dialog)
+> 所有的截屏为ubuntu 18.04 lts下截取.
+>
+> The host operate system of all screenshots is ubuntu 18.04 lts.
 
-## Prebuild binary
-Windows and android: https://share.weiyun.com/5sskOC7
+## 下载/download
 
-linux ISO(使用rufus记录U盘或光盘,或使用虚拟机网卡为e1000, 不支持音频, 不支持USB):
-- 20191222: https://share.weiyun.com/5xITTHc
-- 20200112: https://share.weiyun.com/5QCykDN - added setup program
-- 20200118: https://share.weiyun.com/5yp7B0P - 完善了基本功能, 修正了一些错误
+[下载 Download](https://github.com/atmgnd/debut/releases)
 
-## screenshot
-Windows
-![](https://user-images.githubusercontent.com/12344491/62828914-953a9600-bc24-11e9-9a61-d3fb903c9be1.gif)
+## 预览/Preview
 
-Android(x86 emulated)
-![](https://user-images.githubusercontent.com/12344491/62957934-5412d380-be28-11e9-8bb5-e84f89d871c3.gif)
+<img src="./screenshot/win10.png" alt="win10" style="zoom:78%;" />
 
-Linux ISO: 
-![Linux Iso 112201](./screenshot/debut_iso_20191122.gif)
+## 连接页面/connect to
 
-## License
-This library is free software; you can redistribute it and/or modify it under
-the terms of the GPL2 license. See [LICENSE](LICENSE) for details.
+<img src="./screenshot/connect.png" alt="connect" style="zoom:100%;" />
+
+> 连接页面仅原型, 目前还没有为其定制的KVM平台. 如果有简单的KVM平台, 可能会重新设计此页面以加入连接认证.
+
+## 加载动画/loading animation
+
+![loading](./screenshot/loading.gif)
+
+## 信息面板/information panel
+![information](./screenshot/information.png)
+
+## 工具面板/toolbar
+
+窗口模式/window mode
+
+![window toolbar](./screenshot/toolbar.png)
+
+全屏模式/fullscreen
+
+![fullscreen toolbar](./screenshot/toolbar2.png)
+
+瘦终端模式/kiosk
+
+![kiosk toolbar](./screenshot/toolbar3.png)
+
+> 瘦终端模式运行时没有全屏按钮与标题栏. (fullscreen buitton disabled when kiosk mode enabled)
+
+## usb重定向/usb redirection
+
+![usbredir](./screenshot/usbredir.png)
+
+## 全部面板/all panels
+
+![all panel](./screenshot/all_panel.png)
+
+## 许可/License
+sclient 是免费软件.
+
+sclient is free software.
