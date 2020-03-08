@@ -7,7 +7,7 @@ A remote desktop viewer or a simple spice client demo in c++, this software is j
 
 Support platform: windows/Android(?)/Linux. Mac/IOS(? theoretically supported, not verified, I don't own a imac)
 
-演示视频/video: [https://v.youku.com/v_show/id_XNDUzNjAxNDY2MA](https://v.youku.com/v_show/id_XNDUzNjAxNDY2MA)
+演示视频/video:  [Youku](https://v.youku.com/v_show/id_XNDU3ODUyMTAyMA)    [Youtube](https://youtu.be/a6ufW99PD9o)
 
 > 所有的截屏为ubuntu 18.04 lts下截取.
 >
@@ -58,7 +58,17 @@ Support platform: windows/Android(?)/Linux. Mac/IOS(? theoretically supported, n
 
 ![all panel](./screenshot/all_panel.png)
 
+## 常见问题
+
+1. 为什么不默认自动调整分辨率?
+
+   目前仅仅为DEMO, 为了方便测试不同分辨率. 因此没有全能自动调整.
+
+2. 为什么默认编码为MJPEG?
+
+   因为spice的默认编码为mjpeg, 同样, 我没有优化带宽的需要(改用h264).
 ## 许可/License
+
 sclient 是免费软件.
 
 sclient is free software.
