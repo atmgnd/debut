@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment=Simple spice client
+Comment[zh_CN]=简易远程桌面
+Exec=sudo env LD_LIBRARY_PATH=/opt/sclient/lib /opt/sclient/bin/sclient
+# pkexec for ask root privileges
+GenericName=Simple spice client
+GenericName[zh_CN]=简易远程桌面
+MimeType=
+Name=sclient
+Name[zh_CN]=sclient
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Office;
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Icon=/opt/sclient/share/icons/desktop.svg
+InitialPreference=3
+StartupWMClass=sclient
