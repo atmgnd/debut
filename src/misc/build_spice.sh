@@ -115,7 +115,7 @@ then
 	cd "${BD_BUILDIR}"
 	tar xJvf "${BD_DLDIR}/spice-gtk-0.39.tar.xz"
 	cd spice-gtk-0.39/
-	meson setup --prefix "${BD_SYSROOT}" --backend ninja -Dusbredir=enabled -Dgtk=enabled -Dcelt051=disabled -Dopus=disabled -Dpulse=disabled -Dspice-common:tests=false -Dspice-common:manual=false build
+	meson setup --prefix "${BD_SYSROOT}" --backend ninja -Dusbredir=enabled -Dgtk=enabled -Dcelt051=disabled -Dopus=disabled -Dpulse=disabled -Dspice-common:tests=false -Dspice-common:manual=false -Dwayland-protocols=disabled build
 	ninja -C build
 	ninja -C build install || exit 1
 fi
@@ -141,7 +141,7 @@ then
 	make -j9 && make install || exit 1
 fi
 
-build qemu
+# build qemu
 if test "${BUILD_QEMU}" = "1" -o "${BUILD_ALL}" = "1"
 then
 	cd "${BD_BUILDIR}"
